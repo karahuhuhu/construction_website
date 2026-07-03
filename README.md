@@ -1,8 +1,8 @@
-# Test Company
+# Regan Construction
 
 > Architecture for a more thoughtful future.
 
-一个高端建筑事务所风格的极简、高级、图片主导型网站。灵感来自 Snøhetta / Foster + Partners / BIG 一类的国际建筑事务所官网，未复制任何现有网站。
+一个高端建筑事务所风格的极简、高级、图片主导型网站，总部位于加州。灵感来自 Snøhetta / Foster + Partners / BIG 一类的国际建筑事务所官网，未复制任何现有网站。
 
 ## 技术栈
 
@@ -89,4 +89,4 @@ Next.js 部署文档：https://nextjs.org/docs/app/building-your-application/dep
 
 ## License
 
-© Test Company. All rights reserved.
+© Regan Construction. All rights reserved.

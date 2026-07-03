@@ -13,12 +13,12 @@ export default function Hero() {
               "radial-gradient(120% 90% at 70% 18%, #2b2b2e 0%, #161618 42%, #080809 100%)",
           }}
         />
-        {/* Light shaft */}
+        {/* Light shaft — California golden hour hint */}
         <div
           className="absolute inset-0 opacity-50"
           style={{
             background:
-              "linear-gradient(125deg, rgba(255,255,255,0.10) 0%, rgba(255,255,255,0) 38%)",
+              "linear-gradient(125deg, rgba(255,236,205,0.10) 0%, rgba(255,255,255,0) 38%)",
           }}
         />
         {/* Faint structure lines */}
@@ -30,36 +30,48 @@ export default function Hero() {
             backgroundSize: "120px 120px",
           }}
         />
-        {/* Silhouette of a building form */}
+        {/* California coast skyline: Pacific ranges + low-slung mid-century forms + palms */}
         <svg
           className="absolute bottom-0 left-0 w-full"
           viewBox="0 0 1600 420"
           preserveAspectRatio="xMidYMax slice"
           aria-hidden="true"
         >
-          <g fill="#000" opacity="0.85">
-            <rect x="0" y="240" width="180" height="180" />
-            <rect x="180" y="180" width="120" height="240" />
-            <rect x="300" y="280" width="90" height="140" />
-            <rect x="430" y="150" width="150" height="270" />
-            <rect x="580" y="220" width="70" height="200" />
-            <rect x="680" y="120" width="200" height="300" />
-            <rect x="900" y="200" width="80" height="220" />
-            <rect x="1040" y="90" width="130" height="330" />
-            <rect x="1170" y="170" width="110" height="250" />
-            <rect x="1320" y="250" width="100" height="170" />
-            <rect x="1450" y="140" width="150" height="280" />
+          {/* Distant coastal ranges */}
+          <polygon
+            fill="#000"
+            opacity="0.55"
+            points="0,300 130,252 250,278 390,222 530,258 670,210 830,250 990,202 1150,240 1310,212 1460,250 1600,232 1600,420 0,420"
+          />
+          {/* Mid-century low-slung buildings */}
+          <g fill="#000" opacity="0.9">
+            <rect x="40" y="322" width="210" height="58" />
+            <rect x="290" y="300" width="120" height="80" />
+            <rect x="470" y="332" width="170" height="48" />
+            <rect x="700" y="288" width="150" height="92" />
+            <rect x="910" y="314" width="180" height="66" />
+            <rect x="1150" y="298" width="130" height="82" />
           </g>
-          <g fill="#fff" opacity="0.05">
-            {Array.from({ length: 40 }).map((_, i) => (
-              <rect
-                key={i}
-                x={20 + (i % 10) * 14}
-                y={260 + Math.floor(i / 10) * 18}
-                width="5"
-                height="8"
-              />
-            ))}
+          {/* Pacific waterline */}
+          <rect x="0" y="382" width="1600" height="2" fill="#fff" opacity="0.35" />
+          {/* Palm silhouettes */}
+          <g stroke="#000" strokeWidth="3" fill="none" opacity="0.95">
+            <line x1="1362" y1="384" x2="1362" y2="232" />
+            <path d="M1362 232 Q1328 220 1300 214" strokeWidth="2" />
+            <path d="M1362 232 Q1396 220 1424 214" strokeWidth="2" />
+            <path d="M1362 232 Q1344 204 1334 184" strokeWidth="2" />
+            <path d="M1362 232 Q1380 204 1390 184" strokeWidth="2" />
+            <path d="M1362 232 Q1336 216 1306 228" strokeWidth="2" />
+            <path d="M1362 232 Q1388 216 1418 228" strokeWidth="2" />
+          </g>
+          <g stroke="#000" strokeWidth="2.5" fill="none" opacity="0.9">
+            <line x1="1488" y1="384" x2="1488" y2="270" />
+            <path d="M1488 270 Q1464 262 1444 258" strokeWidth="1.6" />
+            <path d="M1488 270 Q1512 262 1532 258" strokeWidth="1.6" />
+            <path d="M1488 270 Q1476 250 1470 236" strokeWidth="1.6" />
+            <path d="M1488 270 Q1500 250 1506 236" strokeWidth="1.6" />
+            <path d="M1488 270 Q1466 258 1444 266" strokeWidth="1.6" />
+            <path d="M1488 270 Q1510 258 1532 266" strokeWidth="1.6" />
           </g>
         </svg>
         {/* Bottom fade for legibility */}
@@ -69,13 +81,13 @@ export default function Hero() {
       <div className="relative z-10 mx-auto w-full max-w-[1600px] px-6 pb-16 md:px-12 md:pb-24">
         <div className="max-w-4xl">
           <p className="mb-6 text-xs uppercase tracking-[0.35em] text-white/50 animate-fade-up">
-            Architecture · Interior · Landscape
+            Architecture · Interior · Landscape · California
           </p>
           <h1
-            className="font-sans text-5xl font-light leading-[0.95] tracking-tightest text-white animate-fade-up sm:text-7xl md:text-8xl lg:text-[8.5rem]"
+            className="font-sans text-5xl font-light leading-[0.95] tracking-tightest text-white animate-fade-up sm:text-6xl md:text-7xl lg:text-[6.5rem]"
             style={{ animationDelay: "120ms" }}
           >
-            Test Company
+            Regan Construction
           </h1>
           <p
             className="mt-8 max-w-xl text-lg font-light leading-relaxed text-white/70 animate-fade-up md:text-xl"

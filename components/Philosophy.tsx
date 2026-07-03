@@ -9,12 +9,12 @@ const pillars = [
   {
     no: "02",
     title: "Environment",
-    text: "Every building is a climate. We design with sun, wind, water and ground, letting the site set the terms of the answer.",
+    text: "Every building is a climate. From coast to high desert, we design with sun, wind, water and ground — letting the California site set the terms of the answer.",
   },
   {
     no: "03",
     title: "Material",
-    text: "Materials age and tell the truth of time. We choose them for their weight, warmth and the way they gather light.",
+    text: "Materials age and tell the truth of time. Rammed earth, board-formed concrete, reclaimed redwood — chosen for weight, warmth and how they hold the western light.",
   },
   {
     no: "04",
@@ -47,9 +47,10 @@ export default function Philosophy() {
             <p className="text-lg font-light leading-relaxed text-stone-600">
               We believe architecture is an act of care. It begins by listening
               to a place and ends only when a building has been quietly absorbed
-              into the lives of those who use it. Our work searches for the
-              calm, the durable and the humane — forms that feel inevitable
-              rather than imposed.
+              into the lives of those who use it. Across California — its
+              coastline, valleys and deserts — our work searches for the calm,
+              the durable and the humane, erasing the line between indoor and
+              outdoor. Forms that feel inevitable rather than imposed.
             </p>
           </Reveal>
         </div>

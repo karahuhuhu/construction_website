@@ -42,7 +42,7 @@ export default function Navbar() {
             scrolled ? "text-ink" : "text-white"
           }`}
         >
-          Test<span className="font-light"> Company</span>
+          Regan<span className="font-light"> Construction</span>
         </a>
 
         <ul

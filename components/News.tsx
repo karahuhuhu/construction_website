@@ -14,7 +14,7 @@ const articles: Article[] = [
     category: "Essay",
     title: "Building with less: the discipline of restraint",
     excerpt:
-      "On why the most radical act in architecture today is to remove rather than add — and how restraint becomes a form of generosity.",
+      "On why the most radical act in California architecture today is to remove rather than add — restraint as a form of generosity.",
     date: "May 2024",
     read: "6 min",
     visual:
@@ -22,9 +22,9 @@ const articles: Article[] = [
   },
   {
     category: "News",
-    title: "Atelier Pavilion wins international timber award",
+    title: "High Desert Retreat honored for fire-resilient design",
     excerpt:
-      "Our Oslo research pavilion has been recognised for its low-carbon tectonic expression and integration with the boreal landscape.",
+      "Our Joshua Tree retreat has been recognised for its defensible-space strategy and rammed-earth thermal mass.",
     date: "Apr 2024",
     read: "3 min",
     visual:
@@ -32,9 +32,9 @@ const articles: Article[] = [
   },
   {
     category: "Research",
-    title: "Designing for the long northern light",
+    title: "Designing for drought: the dry garden in practice",
     excerpt:
-      "A study on how latitude, season and shadow shape the way buildings are inhabited — and how we draw to hold the light.",
+      "A study on native plant palettes, greywater and how California's dry seasons reshape the way we draw the ground.",
     date: "Mar 2024",
     read: "8 min",
     visual:

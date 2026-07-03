@@ -9,9 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Test Company — Architecture for a more thoughtful future",
+  title: "Regan Construction — Architecture for a more thoughtful future",
   description:
-    "Test Company is an international architecture studio working at the intersection of space, environment, material and human experience.",
+    "Regan Construction is a California-based architecture studio working at the intersection of space, environment, material and human experience.",
 };
 
 export default function RootLayout({

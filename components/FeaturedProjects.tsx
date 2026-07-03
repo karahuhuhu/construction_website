@@ -11,61 +11,61 @@ type Project = {
 
 const projects: Project[] = [
   {
-    name: "Atelier Pavilion",
-    location: "Oslo, Norway",
+    name: "Pacific Pavilion",
+    location: "Malibu, California",
     year: "2024",
     description:
-      "A timber-clad research pavilion that dissolves the line between interior and the surrounding boreal forest.",
+      "A glass-and-timber pavilion perched above the Pacific, dissolving the line between interior and the open ocean.",
     visual:
       "linear-gradient(145deg, #3a3a3d 0%, #1f1f21 55%, #0e0e0f 100%)",
     span: "md:col-span-7",
   },
   {
-    name: "Meridian Tower",
-    location: "Singapore",
+    name: "Meridian Loft",
+    location: "San Francisco, California",
     year: "2023",
     description:
-      "A slender residential high-rise sculpted by tropical light and cross-ventilation.",
+      "An adaptive-reuse loft in a converted SoMa warehouse, tuned to the city's fog and northern light.",
     visual:
       "linear-gradient(160deg, #cfcfcf 0%, #8a8a8a 50%, #4a4a4a 100%)",
     span: "md:col-span-5",
   },
   {
-    name: "Strand Museum",
-    location: "Lisbon, Portugal",
+    name: "Coastline Museum",
+    location: "Big Sur, California",
     year: "2023",
     description:
-      "Cast concrete volumes carved into the hillside, framing unbroken views of the Atlantic.",
+      "Cast concrete volumes carved into the cliffs, framing unbroken views of the California coastline.",
     visual:
       "linear-gradient(150deg, #6b6b6e 0%, #2a2a2c 60%, #131314 100%)",
     span: "md:col-span-5",
   },
   {
-    name: "Kvarts Cultural Center",
-    location: "Reykjavík, Iceland",
+    name: "High Desert Retreat",
+    location: "Joshua Tree, California",
     year: "2022",
     description:
-      "Volcanic basalt and glass form a civic gathering space tuned to the long northern light.",
+      "A rammed-earth retreat sheltered among boulders, its deep openings tracking the desert sun.",
     visual:
       "linear-gradient(135deg, #2c2c2e 0%, #171718 50%, #353535 100%)",
     span: "md:col-span-7",
   },
   {
-    name: "Horizon Library",
-    location: "Cape Town, South Africa",
+    name: "Vineyard Estate",
+    location: "Napa Valley, California",
     year: "2022",
     description:
-      "A public library lifted on slender columns, its reading room opening toward Table Mountain.",
+      "A low-slung winery of board-formed concrete, its shade courts tuned to the valley heat and breeze.",
     visual:
       "linear-gradient(140deg, #9a9a9a 0%, #5e5e5e 55%, #262626 100%)",
     span: "md:col-span-6",
   },
   {
-    name: "Mono House",
-    location: "Kyoto, Japan",
+    name: "Eichler Renovation",
+    location: "Palo Alto, California",
     year: "2021",
     description:
-      "A single-material dwelling where light, shadow and silence define the domestic ritual.",
+      "A faithful reimagining of a mid-century modern home — restoring the indoor-outdoor rhythm of the atrum.",
     visual:
       "linear-gradient(155deg, #4a4a4d 0%, #1d1d1f 60%, #0a0a0b 100%)",
     span: "md:col-span-6",

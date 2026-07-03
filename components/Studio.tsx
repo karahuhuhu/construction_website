@@ -1,16 +1,16 @@
 import Reveal from "./Reveal";
 
 const stats = [
-  { value: "1998", label: "Founded" },
-  { value: "120+", label: "Architects & designers" },
-  { value: "30", label: "Countries" },
-  { value: "200+", label: "Built projects" },
+  { value: "2009", label: "Founded in Los Angeles" },
+  { value: "60+", label: "Architects & designers" },
+  { value: "3", label: "California studios" },
+  { value: "150+", label: "Built projects" },
 ];
 
 const process = [
   {
     step: "Context",
-    text: "We study site, climate, history and community before drawing a single line.",
+    text: "We study site, climate, wildfire risk and community before drawing a single line.",
   },
   {
     step: "Concept",
@@ -41,16 +41,16 @@ export default function Studio() {
           </div>
           <div className="md:col-span-6 md:col-start-7 md:pt-4">
             <p className="text-lg font-light leading-relaxed text-stone-600">
-              Test Company is an international studio of architects, landscape
-              architects and designers. We work across scales — from a single
-              room to an entire district — held together by one method: design
-              slowly, build precisely, and let each place speak through the
-              work.
+              Regan Construction is a California-based studio of architects,
+              landscape architects and designers. We work across scales — from a
+              single room to an entire block — held together by one method:
+              design slowly, build precisely, and let each place speak through
+              the work.
             </p>
             <p className="mt-6 text-base font-light leading-relaxed text-stone-500">
-              Our teams are small, multidisciplinary and embedded in every
-              project. We keep authorship close to the craft, and the craft
-              close to the site.
+              From the coast to the high desert, our teams are small,
+              multidisciplinary and embedded in every project. We keep
+              authorship close to the craft, and the craft close to the site.
             </p>
           </div>
         </Reveal>
@@ -78,9 +78,11 @@ export default function Studio() {
             />
             <div className="absolute bottom-6 left-6 text-white">
               <p className="text-xs uppercase tracking-[0.3em] text-white/50">
-                Main Studio
+                California Studios
               </p>
-              <p className="mt-2 text-xl font-light">Oslo · Lisbon · Singapore</p>
+              <p className="mt-2 text-xl font-light">
+                Los Angeles · San Francisco · San Diego
+              </p>
             </div>
           </div>
 
